@@ -1,0 +1,42 @@
+Balanced 2 types of parentheses
+S -> SS | LR | BA
+L -> (
+B -> [
+R -> ) | SR 
+A -> ] | SA
+
+
+Math expressions
+S -> NR
+N -> dD
+D -> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0
+d -> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 
+R -> OS | ON
+O -> + | - | * | /
+
+
+2 or more a's or b's
+S -> AA | BB
+A -> a | AA
+B -> b | BB
+
+
+Lambda expressions
+( -> (
+\ -> \
+. -> .
+) -> )
+_ -> _
+V -> x | y|z
+S -> LT
+L -> (R
+R -> \N
+N -> VD
+D -> .t
+t -> T)
+T -> LT | x | y | z
+
+(\x.x)(\x.(\z.(\x.(\z.z)(\z.x)y)y)z)z
+(\y.(\z.(\x.(\z.z)x)(\y.y)z)z)x
+(\z.(\z.(\z.(\z.x)y)z)x)x
+(\z.(\y.y)(\y.(\z.(\y.y)x)(\z.z)(\y.(\y.z)z)y)y)x

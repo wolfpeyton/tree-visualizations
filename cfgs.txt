@@ -2,7 +2,7 @@ Balanced 2 types of parentheses
 S -> SS | LR | BA
 L -> (
 B -> [
-R -> ) | SR 
+R -> ) | SR
 A -> ] | SA
 
 
@@ -10,7 +10,7 @@ Math expressions
 S -> NR
 N -> dD
 D -> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0
-d -> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 
+d -> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
 R -> OS | ON
 O -> + | - | * | /
 

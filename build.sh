@@ -1,5 +1,5 @@
 #!/bin/sh
-# Compiles the app into elm.js (loaded by index.html)
+# Compiles the Elm app into elm.js (loaded by index.html)
 set -e
 cd "$(dirname "$0")"
-elm make Arithmetic/MathDisplay.elm --output=elm.js
+elm make Main.elm --output=elm.js
